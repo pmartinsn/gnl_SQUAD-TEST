@@ -6,14 +6,19 @@
 /*   By: pmartins <pmartins@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/11 10:16:08 by pmartins          #+#    #+#             */
-/*   Updated: 2020/04/07 20:50:57 by pmartins         ###   ########.fr       */
+/*   Updated: 2020/04/07 22:06:10 by pmartins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <sys/stat.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
+# include <stdlib.h>
+# include <string.h>
+# include <stddef.h>
+# include <stdio.h>
+# include <ctype.h>
+# include <unistd.h>
+# include <sys/types.h>
+# include <sys/stat.h>
+# include <fcntl.h>
 #include "Put.C-H-InHere/get_next_line.h"
 
 int				get_next_line(int fd, char **line);
