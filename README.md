@@ -3,9 +3,9 @@
 ### Get Next Line- A Project for the 42Cursus.
 #### Reading a line on a fd is way too tedious
 ### TO RUN:
-* Copy your files get_next_line.c , get_next_line.h and get_next_line_utils.c on the folder "Put.C-H-InHere"
-*Then, go back to the folder "gnl_SQUAD-TEST"
-*To run type: bash make.sh
+* **Copy your files get_next_line.c , get_next_line.h and get_next_line_utils.c on the folder "Put.C-H-InHere"**
+* **Then, go back to the folder "gnl_SQUAD-TEST"**
+* **To run type: bash make.sh**
 
 ## The Test
 | Name  |  Descripton  |
@@ -30,8 +30,3 @@
 ## Linkedin
 
 * **[Pamela Martins Nunes- ](https://www.linkedin.com/in/pamelaillisse/)**
-
-##### Aditional information
-
-* [Man pages](https://www.die.net/) - Website where most of descripton was cut
-* [Linux Programmer's Manual](http://man7.org/) - Cool website 
