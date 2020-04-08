@@ -14,6 +14,8 @@
 | TEST 2 | Check a file with multiple empity lines, tabs and spaces |
 | TEST 3 |  Check a file to see if the function can find all lines|
 | TEST 4 | Check a file with a large line |
+| TEST 5 | Check if the funtion behaves correctly with wrong input |
+
 
 
 ## Built with

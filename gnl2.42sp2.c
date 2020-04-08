@@ -6,7 +6,7 @@
 /*   By: pmartins <pmartins@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/11 10:16:08 by pmartins          #+#    #+#             */
-/*   Updated: 2020/04/07 22:06:40 by pmartins         ###   ########.fr       */
+/*   Updated: 2020/04/08 10:30:11 by pmartins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,6 +62,20 @@ printf("\033[1;33m\n** TEST 4 : LARGE LINE LINES *********\n\033[0m");
 		else if (i == 3)
 			printf("\033[1;32m\n[OKAY]\n\033[0m");
 		else if (i != 3)
+			printf("\033[0;31m\n[KO]\n\033[0m");
+	printf("\033[0;0m\n** TEST 5 : NO FILE *********\n\033[0m");
+	fd = open("test3", O_RDONLY);
+	i = 1;
+	result = 1;
+	while (((result = get_next_line(fd, &line)) > 0))
+	{
+		i++;
+	}
+	free(line);
+	close(fd);
+	if (result == -1)
+				printf ("\033[1;32m\n[OKAY]\n\033[0m");
+		else if (i != -1)
 			printf("\033[0;31m\n[KO]\n\033[0m");
 	return(0);
 }
