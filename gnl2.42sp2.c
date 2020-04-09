@@ -6,7 +6,7 @@
 /*   By: pmartins <pmartins@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/11 10:16:08 by pmartins          #+#    #+#             */
-/*   Updated: 2020/04/08 10:30:11 by pmartins         ###   ########.fr       */
+/*   Updated: 2020/04/09 14:53:57 by pmartins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,6 @@ printf("\033[1;33m\n** TEST 4 : LARGE LINE LINES *********\n\033[0m");
 	{
 		i++;
 	}
-	free(line);
 	close(fd);
 	if (result == -1)
 				printf ("\033[1;32m\n[OKAY]\n\033[0m");
