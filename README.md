@@ -5,7 +5,7 @@
 ### TO RUN:
 * **Copy your files get_next_line.c , get_next_line.h and get_next_line_utils.c on the folder "Put.C-H-InHere"**
 * **Then, go back to the folder "gnl_SQUAD-TEST"**
-* **To run type: bash make.sh**
+* **To run type: ./make.sh or bash make.sh**
 
 ## The Test
 | Name  |  Descripton  |
